@@ -34,6 +34,9 @@ formLogin.addEventListener('submit', function(evento) {
     console.log('Senha secreta:', senhaDigitada); // No futuro não daremos console.log na senha!
 
     alert('Validação passou! Abra o console do navegador (F12) para ver os dados.');
+
+    alert('Login efetuado! Redirecionando para o sistema...');
+    window.location.href = 'dashbord.js';
     
     // Exemplo do que faremos depois: fetch('http://localhost:8080/api/login', ...)
 });
