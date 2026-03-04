@@ -199,6 +199,8 @@ body {
     font-size: 24px;
     color: #111827;
     margin-bottom: 24px;
+    margin-top: auto;
+    position: absolute;
 }
 
 /* Card temporário para a tela em branco */
