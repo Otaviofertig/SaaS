@@ -129,9 +129,11 @@ body {
 }
 
 .dashboard-body {
-    display: flex; /* Coloca o menu e o conteúdo lado a lado */
-    align-items: stretch; /* Estica para ocupar a altura toda */
+    display: flex; 
+    align-items: stretch;
+    justify-content: flex-start; /* SOBRESCREVE o center do body original */
     background-color: #f9fafb;
+    width: 100%; /* Garante que ocupe a tela toda */
 }
 
 /* Menu Lateral */
@@ -143,8 +145,9 @@ body {
     flex-direction: column;
     height: 100vh; /* Altura total da tela */
     position: fixed; /* Fica fixo na lateral */
+    left: 0; /* GRUDA o menu no canto esquerdo */
+    top: 0;  /* GRUDA o menu no topo da tela */
 }
-
 .sidebar-header {
     padding: 24px;
     border-bottom: 1px solid #e5e7eb;

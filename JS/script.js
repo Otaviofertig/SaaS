@@ -36,7 +36,7 @@ formLogin.addEventListener('submit', function(evento) {
     alert('Validação passou! Abra o console do navegador (F12) para ver os dados.');
 
     alert('Login efetuado! Redirecionando para o sistema...');
-    window.location.href = 'dashbord.js';
+    window.location.href = 'dashbord.html';
     
     // Exemplo do que faremos depois: fetch('http://localhost:8080/api/login', ...)
 });
