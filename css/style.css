@@ -23,6 +23,10 @@ body {
     padding: 20px;
 }
 
+.container-login label {
+    text-align: left;
+}
+
 .card-login {
     background-color: #ffffff;
     padding: 40px 30px;
